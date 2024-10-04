@@ -1,0 +1,43 @@
+@mixin theme($bg-color) {
+    background: $bg-color;
+    transition: background 0.3s ease;
+}
+
+$light-theme: rgb(163, 203, 255);
+$dark-theme: rgb(3, 3, 173);
+
+body {
+    @include theme($light-theme);
+}
+
+.dark-mode {
+    @include theme($dark-theme);
+}
+
+
+$background-color: rgb(163, 203, 255);
+$text-color: rgb(0, 0, 0);
+$font-family: 'Arial, sans-serif';
+
+body {
+    background: $background-color;
+    color: $text-color;
+    font-family: $font-family;
+    transition: background 0.3s ease;
+}
+
+
+$background-color: rgb(163, 203, 255);
+$link-color: rgb(0, 100, 200);
+
+a {
+    color: $link-color;
+    text-decoration: none;
+    transition: color 0.3s ease;
+
+    &:hover {
+        color: (red); // Ubah warna saat hover
+    }
+}
+
+
