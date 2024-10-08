@@ -28,7 +28,7 @@ const BerandaView = ({ubahCari, cariProduct, hasilCari, hasilFilter}) => {
                     <figure className="px-10 pt-10">
                       <img
                         src={`https://restaurant-api.dicoding.dev/images/small/${product.pictureId}`}
-                        alt="Shoes"
+                        alt=""
                         className="rounded-xl"
                       />
                     </figure>
