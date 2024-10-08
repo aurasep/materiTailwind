@@ -79,8 +79,7 @@ const Beranda = () => {
   console.log(state);
 
     return (
-      <div className="">
-        <button onClick={()=> dispatchRedux(toogleTheme())}>COBA DISPACTH</button>
+      <div>
       <BerandaView
         cariProduct={cariProduct}
         hasilCari={state.filterData}
