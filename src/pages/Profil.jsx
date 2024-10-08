@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 
 const Profil = () => {
   return (
@@ -16,11 +15,7 @@ const Profil = () => {
         Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem
         quasi. In deleniti eaque aut repudiandae et a id nisi.
       </p>
-      <Link
-      to={"/detail/"}
-      className="btn btn-primary">
-      Get Started
-      </Link>
+      <button className="btn btn-primary">Get Started</button>
     </div>
   </div>
 </div>
